@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		187AE84424777FF2007A5B47 /* PTTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 187AE84324777FF2007A5B47 /* PTTest.m */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -38,6 +39,8 @@
 
 /* Begin PBXFileReference section */
 		0DE0B6D647428874B91CFFE4 /* PodTest.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = PodTest.podspec; path = ../PodTest.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		187AE84224777FF2007A5B47 /* PTTest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PTTest.h; sourceTree = "<group>"; };
+		187AE84324777FF2007A5B47 /* PTTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PTTest.m; sourceTree = "<group>"; };
 		223DF72E21FABF9974095F32 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* PodTest_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PodTest_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -95,6 +98,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		187AE84124777FCD007A5B47 /* Test */ = {
+			isa = PBXGroup;
+			children = (
+				187AE84224777FF2007A5B47 /* PTTest.h */,
+				187AE84324777FF2007A5B47 /* PTTest.m */,
+			);
+			name = Test;
+			sourceTree = "<group>";
+		};
 		28BE04F34C0CA16D2E167CD1 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -143,6 +155,7 @@
 		6003F593195388D20070C39A /* Example for PodTest */ = {
 			isa = PBXGroup;
 			children = (
+				187AE84124777FCD007A5B47 /* Test */,
 				6003F59C195388D20070C39A /* PTAppDelegate.h */,
 				6003F59D195388D20070C39A /* PTAppDelegate.m */,
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
@@ -386,6 +399,7 @@
 				6003F59E195388D20070C39A /* PTAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* PTViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
+				187AE84424777FF2007A5B47 /* PTTest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
