@@ -9,15 +9,15 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>PodTest.xcscheme</key>
+		<key>PodTest.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>isShown</key>
-			<false/>
+			<true/>
 		</dict>
 		<key>Pods-PodTest_Example.xcscheme</key>
 		<dict>
 			<key>isShown</key>
-			<false/>
+			<true/>
 		</dict>
 		<key>Pods-PodTest_Tests.xcscheme</key>
 		<dict>

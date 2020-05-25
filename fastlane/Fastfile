@@ -50,7 +50,7 @@ platform :ios do
     podspec_name = podspec_path.chomp(".podspec")
 
     # 所有需要提交的文件路径
-    paths = [podspec_path, "Carthage/Build/iOS/Static/#{podspec_name}.framework"]
+    paths = [podspec_path]
     
     # 添加 podspec 和 framework
     git_add(path: paths)
