@@ -10,5 +10,6 @@
 @implementation TSPublicPod
 - (void)showMe{
     NSLog(@"TSPublicPod");
+    NSLog(@"测试");
 }
 @end
